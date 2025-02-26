@@ -1,6 +1,3 @@
-[submodule "数字系统设计实验/3230106231"]
-	path = 数字系统设计实验/3230106231
-	url = https://github.com/GgbNnD/VerilogLab.git
 [submodule "数字系统设计实验/VerilogLab"]
 	path = 数字系统设计实验/VerilogLab
 	url = https://github.com/GgbNnD/VerilogLab.git
