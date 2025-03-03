@@ -1,0 +1,181 @@
+Added Component: Designator=C1(MLCC5.08-A)
+Add component (AddParameter): Name = "BOM名称"; Value = "独石电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=DZ1(DO-35)
+Add component (AddParameter): Name = "BOM名称"; Value = "3V/0.5W稳压管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=IC1(DIP794W53P254L959H508Q8N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "OP07CP+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OP07CP%2b?qs=iZ8gpeFYjbuxAroH12iSPg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC2(DIP794W53P254L959H508Q8N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "OP07CP+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OP07CP%2b?qs=iZ8gpeFYjbuxAroH12iSPg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=JP1(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP3(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=RP1(3266Y)
+Add component (AddParameter): Name = "BOM名称"; Value = "插件电位器"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=RP2(3266Y)
+Add component (AddParameter): Name = "BOM名称"; Value = "插件电位器"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=DZ1-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=JP2-2
+Added Pin To Net: NetName=NetC1_1 Pin=R1-1
+Added Pin To Net: NetName=NetC1_1 Pin=R3-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=JP2-4
+Added Pin To Net: NetName=NetC1_2 Pin=R1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R2-1
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetDZ1_2 Pin=DZ1-2
+Added Pin To Net: NetName=NetDZ1_2 Pin=R12-2
+Added Pin To Net: NetName=NetDZ1_2 Pin=RP1-1
+Added Net: Name=NetDZ1_2
+Added Pin To Net: NetName=NetIC1_2 Pin=IC1-2
+Added Pin To Net: NetName=NetIC1_2 Pin=R2-2
+Added Pin To Net: NetName=NetIC1_2 Pin=R5-1
+Added Net: Name=NetIC1_2
+Added Pin To Net: NetName=NetIC1_3 Pin=IC1-3
+Added Pin To Net: NetName=NetIC1_3 Pin=R3-2
+Added Pin To Net: NetName=NetIC1_3 Pin=R4-2
+Added Net: Name=NetIC1_3
+Added Pin To Net: NetName=NetIC1_4 Pin=IC1-4
+Added Pin To Net: NetName=NetIC1_4 Pin=IC2-4
+Added Pin To Net: NetName=NetIC1_4 Pin=JP1-4
+Added Net: Name=NetIC1_4
+Added Pin To Net: NetName=NetIC1_6 Pin=IC1-6
+Added Pin To Net: NetName=NetIC1_6 Pin=R5-2
+Added Pin To Net: NetName=NetIC1_6 Pin=R6-1
+Added Net: Name=NetIC1_6
+Added Pin To Net: NetName=NetIC1_7 Pin=IC1-7
+Added Pin To Net: NetName=NetIC1_7 Pin=IC2-7
+Added Pin To Net: NetName=NetIC1_7 Pin=JP1-1
+Added Pin To Net: NetName=NetIC1_7 Pin=R12-1
+Added Net: Name=NetIC1_7
+Added Pin To Net: NetName=NetIC2_2 Pin=IC2-2
+Added Pin To Net: NetName=NetIC2_2 Pin=R6-2
+Added Pin To Net: NetName=NetIC2_2 Pin=R7-2
+Added Pin To Net: NetName=NetIC2_2 Pin=R8-1
+Added Net: Name=NetIC2_2
+Added Pin To Net: NetName=NetIC2_3 Pin=IC2-3
+Added Pin To Net: NetName=NetIC2_3 Pin=R9-2
+Added Net: Name=NetIC2_3
+Added Pin To Net: NetName=NetIC2_6 Pin=IC2-6
+Added Pin To Net: NetName=NetIC2_6 Pin=R10-1
+Added Net: Name=NetIC2_6
+Added Pin To Net: NetName=NetJP3_1 Pin=JP3-1
+Added Pin To Net: NetName=NetJP3_1 Pin=R10-2
+Added Pin To Net: NetName=NetJP3_1 Pin=RP2-3
+Added Net: Name=NetJP3_1
+Added Pin To Net: NetName=NetJP3_4 Pin=JP3-4
+Added Pin To Net: NetName=NetJP3_4 Pin=R7-1
+Added Pin To Net: NetName=NetJP3_4 Pin=RP1-2
+Added Net: Name=NetJP3_4
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=RP2-1
+Added Pin To Net: NetName=NetR8_2 Pin=RP2-2
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=RP1-3
+Added Net: Name=NetR13_2
+Added Member To Class: ClassName=Sheet1 Member=Component C1 224
+Added Member To Class: ClassName=Sheet1 Member=Component DZ1 1N4619
+Added Member To Class: ClassName=Sheet1 Member=Component IC1 OP07CP+
+Added Member To Class: ClassName=Sheet1 Member=Component IC2 OP07CP+
+Added Member To Class: ClassName=Sheet1 Member=Component JP1 HDR-1X4
+Added Member To Class: ClassName=Sheet1 Member=Component JP2 HDR-1X4
+Added Member To Class: ClassName=Sheet1 Member=Component JP3 HDR-1X4
+Added Member To Class: ClassName=Sheet1 Member=Component R1 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R2 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R3 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R4 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R5 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R6 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R7 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R8 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R9 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R10 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R12 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R13 1K
+Added Member To Class: ClassName=Sheet1 Member=Component RP1 10K
+Added Member To Class: ClassName=Sheet1 Member=Component RP2 12K
