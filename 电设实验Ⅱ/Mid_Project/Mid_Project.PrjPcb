@@ -49,7 +49,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=I-V E9A_05_6231.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -66,7 +66,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EIZJVPGM
 
 [Document2]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=I-V E9A_05_6231.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
