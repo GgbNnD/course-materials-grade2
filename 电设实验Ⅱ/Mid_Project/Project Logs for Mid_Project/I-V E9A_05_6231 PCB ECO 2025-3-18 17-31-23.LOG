@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=DZ1-1
+Removed Pin From Net: NetName=NetDZ1_2 Pin=DZ1-2
+Added Component: Designator=DZ1(DO-41)
+Add component (AddParameter): Name = "BOM名称"; Value = "5.1V/1W稳压管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=DZ1-1
+Added Pin To Net: NetName=NetDZ1_2 Pin=DZ1-2
