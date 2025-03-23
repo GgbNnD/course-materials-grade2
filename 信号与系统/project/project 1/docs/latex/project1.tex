@@ -146,4 +146,86 @@ we can draw the following pole-zero diagrams
 \subsubsection*{(d)}
 In the function pzplot,it use the function roots to find the poles and zeros of the system, and then plot the poles and zeros on the complex plane.
 for every pole, if the pole is on the left side of the given point,the ROC should contain the right side of the pole, and if the pole is on the right side of the given point, the ROC should contain the left side of the pole.\\
+\subsection{Making Discrete-Time Pole-Zero Diagrams}
+
+\subsubsection*{Note}
+
+In the M-file dpzplot.m, it use the outdated function \bf{clg},in order to inform that the function works well,we use the function \bf{clf} instead of \bf{clg}.\\
+\begin{lstlisting}
+    %clg;
+    clf;
+\end{lstlisting}
+
+\subsubsection*{(a)}
+use the following easy code to make the pole-zero diagram of the system
+\begin{lstlisting}
+b = [1 -1 0];  % 分子系数
+a = [1 3 2];   % 分母系数
+dpzplot(b, a); % 绘制零极点图
+\end{lstlisting}
+Then we can get the following pole-zero diagrams
+\begin{center}
+    \includegraphics[width = 0.7\textwidth]{1.2.1.png}
+\end{center}
+
+\subsubsection*{(b)}
+
+Do the Z-transform of the following equations
+\begin{center}
+    \begin{math}
+        \centering
+        y[n] +y[n-1] + 0.5y[n-2] = x[n]
+    \end{math}
+\end{center}
+we can get
+\begin{center}
+    \begin{math}
+        Y(z) + Y(z)z^{-1} + 0.5Y(z)z^{-2} = X(z)
+    \end{math}
+\end{center}
+so that
+\begin{center}
+    \begin{math}
+        H(z) = \frac{Y(z)}{X(z)} = \frac{1}{1+z^{-1}+0.5z^{-2}} = \frac{z^2}{z^2+z+0.5}
+    \end{math}
+\end{center}
+use the following code we can get the following pole-zero diagrams
+\begin{lstlisting}
+b = [1 0 0];      % 分子系数
+a = [1 1 0.5];    % 分母系数
+dpzplot(b, a);    % 绘制零极点图
+\end{lstlisting}
+\begin{center}
+    \includegraphics[width = 0.7\textwidth]{1.2.2.png}
+\end{center}
+
+\subsubsection*{(c)}
+Do the Z-transform of the following equations
+\begin{center}
+    \begin{math}
+        \centering
+        y[n] - 1.25y[n-1] +0.75y[n-2]-0.125y[n-3] = x[n] +0.5x[n-1]
+    \end{math}
+\end{center}
+we can get
+\begin{center}
+    \begin{math}
+        Y(z) - 1.25Y(z)z^{-1} + 0.75Y(z)z^{-2} - 0.125Y(z)z^{-3} = X(z) + 0.5X(z)z^{-1}
+    \end{math}
+\end{center}
+so that
+\begin{center}
+    \begin{math}
+        H(z) = \frac{Y(z)}{X(z)} = \frac{1+0.5z^{-1}}{1-1.25z^{-1}+0.75z^{-2}-0.125z^{-3}} = \frac{z^3+0.5z^2}{z^3-1.25z^2+0.75z-0.125}
+    \end{math}
+\end{center}
+use the following code we can get the following pole-zero diagrams
+\begin{lstlisting}
+b = [1 0.5 0 0];      % 分子系数
+a = [1 -1.25 0.75 -0.125];    % 分母系数
+dpzplot(b, a);    % 绘制零极点图
+\end{lstlisting}
+\begin{center}
+    \includegraphics[width = 0.7\textwidth]{1.2.3.png}
+\end{center}
 \end{document}

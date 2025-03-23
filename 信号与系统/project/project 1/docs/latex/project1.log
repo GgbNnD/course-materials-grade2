@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  23 MAR 2025 16:36
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  23 MAR 2025 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -505,19 +505,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
-[4] (./project1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[4]
+File: F:/School/大二下/信号与系统/project/project 1/asset/1.2.1.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/1.2.1.png>
+ [5]
+File: F:/School/大二下/信号与系统/project/project 1/asset/1.2.2.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/1.2.2.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/1.2.3.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/1.2.3.png>
+ [6] [7] (./project1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10848 strings out of 476720
- 254631 string characters out of 5801444
+ 10885 strings out of 476720
+ 256266 string characters out of 5801444
  2059842 words of memory out of 5000000
- 32701 multiletter control sequences out of 15000+600000
- 584178 words of font info for 91 fonts, out of 8000000 for 9000
+ 32734 multiletter control sequences out of 15000+600000
+ 584186 words of font info for 92 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  93i,6n,97p,361b,2042s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on project1.pdf (4 pages).
+Output written on project1.pdf (7 pages).

@@ -25,7 +25,7 @@ end
 ps = roots(a);
 zs = roots(b);
 mx = max( abs([ps' zs' .95]) ) + .05;
-clg;
+%clg;
 axis([-mx mx -mx mx]);
 axis('equal');
 hold on

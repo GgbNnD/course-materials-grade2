@@ -66,3 +66,20 @@ plot(real(ps), imag(ps), 'x');  % 绘制极点
 grid on;
 axis([-4 4 -3 3]);
 title('Pole-Zero Plot');
+
+%% exercise 2
+figure(3)
+subplot(2,2,1)
+b = [1 -1 0];  % 分子系数
+a = [1 3 2];   % 分母系数
+dpzplot(b, a); % 绘制零极点图
+
+subplot(2,2,2)
+b = [1 0 0];      % 分子系数
+a = [1 1 0.5];    % 分母系数
+dpzplot(b, a);    % 绘制零极点图
+
+subplot(2,2,3)
+b = [1 0.5 0 0];          % 分子系数
+a = [1 -1.25 0.75 -0.125]; % 分母系数
+dpzplot(b, a);             % 绘制零极点图
