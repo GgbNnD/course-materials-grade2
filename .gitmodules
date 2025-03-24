@@ -1,3 +1,6 @@
 [submodule "数字系统设计实验/VerilogLab"]
 	path = 数字系统设计实验/VerilogLab
 	url = https://github.com/GgbNnD/VerilogLab.git
+[submodule "电磁场与电磁波/场波实验"]
+	path = 电磁场与电磁波/场波实验
+	url = git@github.com:GgbNnD/FieldWave-Experiment.git
