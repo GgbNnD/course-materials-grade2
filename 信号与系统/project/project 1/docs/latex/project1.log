@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  25 MAR 2025 21:58
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  25 MAR 2025 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,55 +426,74 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen268
+\captionmargin=\dimen269
+\caption@leftmargin=\dimen270
+\caption@rightmargin=\dimen271
+\caption@width=\dimen272
+\caption@indent=\dimen273
+\caption@parindent=\dimen274
+\caption@hangindent=\dimen275
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
+Package caption Info: listings package is loaded.
 ) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 ) (./project1.aux)
 \openout1 = `project1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-\c@lstlisting=\count320
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+\c@lstlisting=\count322
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 41.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 38.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 41.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 38.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 41.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 38.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 41.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.045> on input line 38.
+(Font)              <12.045> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 38.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+(Font)              <6> on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -487,13 +506,13 @@ File: F:/School/大二下/信号与系统/project/project 1/asset/1.1.1.3.png Gr
 File: F:/School/大二下/信号与系统/project/project 1/asset/1.1.1.4.png Graphic file (type bmp)
 <F:/School/大二下/信号与系统/project/project 1/asset/1.1.1.4.png>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.53937> on input line 109.
+(Font)              <10.53937> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 109.
+(Font)              <7> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 109.
+(Font)              <5> on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
@@ -501,12 +520,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 File: F:/School/大二下/信号与系统/project/project 1/asset/1.1.3.png Graphic file (type bmp)
 <F:/School/大二下/信号与系统/project/project 1/asset/1.1.3.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
@@ -521,15 +540,45 @@ File: F:/School/大二下/信号与系统/project/project 1/asset/1.2.3.png Grap
  [6] [7] [8] [9]
 File: F:/School/大二下/信号与系统/project/project 1/asset/2.2.png Graphic file (type bmp)
 <F:/School/大二下/信号与系统/project/project 1/asset/2.2.png>
- [10]
+ [10] [11]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/sl' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 374.
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 378.
 
-[11]
 File: F:/School/大二下/信号与系统/project/project 1/asset/2.3.png Graphic file (type bmp)
 <F:/School/大二下/信号与系统/project/project 1/asset/2.3.png>
- [12] (./project1.aux)
+[12] [13]
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1bassdrum.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1bassdrum.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1bleeep.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1bleeep.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1castanets44m.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1castanets44m.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1hatclosed.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1hatclosed.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1mixed.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1mixed.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1snare.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1snare.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--448
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--448
+[]$ $[]$
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15] [16]
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1A2.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1A2.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1A1.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1A1.png>
+ [17] (./project1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -540,12 +589,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10954 strings out of 476720
- 257952 string characters out of 5801444
+ 12390 strings out of 476720
+ 288355 string characters out of 5801444
  2059842 words of memory out of 5000000
- 32798 multiletter control sequences out of 15000+600000
+ 34220 multiletter control sequences out of 15000+600000
  584202 words of font info for 94 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 93i,8n,97p,361b,2042s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,8n,97p,361b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on project1.pdf (12 pages).
+Output written on project1.pdf (17 pages).

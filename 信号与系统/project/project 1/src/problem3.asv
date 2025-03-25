@@ -12,7 +12,7 @@ plot(t, y);
 xlabel('Time (s)');
 ylabel('Amplitude');
 
-% play the sound
+% play the .wav
 sound(y, Fs); 
 
 %% 3.1A
@@ -21,20 +21,4 @@ close all;
 clear;
 
 [y, Fs] = audioread('castanets44m.wav');
-y_rev = TimeReverse(y);
-% draw the wave
-t = (0:length(y)-1)/Fs;
-
-figure(1)
-subplot(1,2,1)
-plot(t, y);
-xlabel('Time (s)');
-ylabel('Amplitude');
-
-subplot(1,2,2)
-plot(t, y_rev);
-xlabel('Time (s)');
-ylabel('Amplitude');
-
-% play the sound
-sound(y_rev, Fs); 
+y_rev = TimeReverse()

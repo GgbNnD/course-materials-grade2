@@ -13,6 +13,9 @@
 \usepackage{amsthm}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{caption}
+
+\captionsetup{ labelformat=empty}
 
 \lstset{
  columns=fixed,       
@@ -229,6 +232,7 @@ dpzplot(b, a);    % 绘制零极点图
     \includegraphics[width = 0.7\textwidth]{1.2.3.png}
 \end{center}
 
+\newpage
 \section{Problem 2}
 \subsection{Smiley}
 \subsubsection*{(a)}
@@ -383,4 +387,119 @@ the column of nose is 900 and we can get the following image
     \includegraphics[width = 0.7\textwidth]{2.3.png}
 \end{center}
 We can see that the method works well even if the image has some noise.
+\newpage
+\section{Problem 3}
+
+\subsection{Use the Sounds in Matlab}
+Using the following code, you can get the wave of the sound and play it.
+\begin{lstlisting}
+clc;
+close all;
+clear;
+
+% read .wav
+[y, Fs] = audioread('snare.wav'); 
+
+% draw the wave
+t = (0:length(y)-1)/Fs; 
+plot(t, y);
+xlabel('Time (s)');
+ylabel('Amplitude');
+
+% play the .wav
+sound(y, Fs); 
+\end{lstlisting}
+Some sound is too short to be listened clearly,but 
+the sounds that can be listened clearly roughly 
+meet my expectation.Now I put the wave of the sound.
+\begin{figure}[h]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1bassdrum.png}
+        \caption{bassdrum}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1bleeep.png}
+        \caption{bleeep}
+    \end{minipage}
+    \quad
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1castanets44m.png}
+        \caption{castanets44m}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1hatclosed.png}
+        \caption{hatclosed}
+    \end{minipage}
+    \quad
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1mixed.png}
+        \caption{mixed}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1snare.png}
+        \caption{snare}
+    \end{minipage}
+\end{figure} 
+
+\newpage
+\subsubsection*{A.Time-reverse \& Timescale}
+The sound vector is a column vector, 
+so we can use the function flipud.\par
+In TimeReverse.m
+\begin{lstlisting}
+function sound_rev = TimeReverse(y)
+    sound_rev = flipud(y);
+end
+\end{lstlisting}
+In problem3.m
+\begin{lstlisting}
+clc;
+close all;
+clear;
+
+[y, Fs] = audioread('castanets44m.wav');
+y_rev = TimeReverse(y);
+% draw the wave
+t = (0:length(y)-1)/Fs;
+
+figure(1)
+subplot(1,2,1)
+plot(t, y);
+xlabel('Time (s)');
+ylabel('Amplitude');
+
+subplot(1,2,2)
+plot(t, y_rev);
+xlabel('Time (s)');
+ylabel('Amplitude');
+
+% play the sound
+sound(y_rev, Fs);
+\end{lstlisting} 
+
+\newpage
+We can get two compared wave of the sound.
+\begin{figure}[h]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1A2.png}
+        \caption{origin wave}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1A1.png}
+        \caption{reversed wave}
+    \end{minipage}
+\end{figure}
+
+\par
+When use the function timescale,the pitch changes with the change of the frequency of the sound.
+
+\subsubsection*{B.Fader}
 \end{document}
