@@ -343,4 +343,44 @@ Run the code and we can konw that \bf{the row of nose is 124} and
 \begin{center}
     \includegraphics[width = 0.7\textwidth]{2.2.png}
 \end{center}
+
+\subsubsection*{(c)}
+The problem requires us to add noise to the image and 
+use the same metheod to find the nose.But I found that 
+the noise alreadly exists in the image,so I firstly clean 
+the noise and then add noise to the image in order to 
+use the function normrnd.\par
+We can get the smiley without noise by the following code
+\begin{lstlisting}
+clc;
+close all;
+clear;
+
+%read imag
+img = imread("F:\School\大二下\信号与系统\project\project 1\introduction\Files for Problem2\findsmiley.jpg");
+[img_row,img_colum] = size(img);
+img_copy = img;
+% clean the noise
+for i = 1:img_row
+    for j =1:img_colum
+        if(img_copy(i,j)>200)
+            img_copy(i,j) = 255;
+        else
+            img_copy(i,j) = 0;
+        end
+    end
+end
+%save imag
+imwrite(img_copy,'F:\School\大二下\信号与系统\project\project 1\asset\smiley_without_noise.png')
+\end{lstlisting}
+Now let us process the image without noise.\par
+Because of the noise,we can't normalize$\pm 127.5$to $\pm 1$,
+so I just substract 127.5 from the pixel value.\par
+Use the similar code(more detail in 2c code segment in problem2.m) ,
+we can get that the row of nose is 124 and
+the column of nose is 900 and we can get the following image
+\begin{center}
+    \includegraphics[width = 0.7\textwidth]{2.3.png}
+\end{center}
+We can see that the method works well even if the image has some noise.
 \end{document}
