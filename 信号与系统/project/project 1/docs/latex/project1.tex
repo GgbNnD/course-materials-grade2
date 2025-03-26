@@ -424,6 +424,7 @@ meet my expectation.Now I put the wave of the sound.
         \caption{bleeep}
     \end{minipage}
     \quad
+
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=0.8\linewidth]{3.1castanets44m.png}
@@ -435,6 +436,7 @@ meet my expectation.Now I put the wave of the sound.
         \caption{hatclosed}
     \end{minipage}
     \quad
+
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=0.8\linewidth]{3.1mixed.png}
@@ -502,4 +504,137 @@ We can get two compared wave of the sound.
 When use the function timescale,the pitch changes with the change of the frequency of the sound.
 
 \subsubsection*{B.Fader}
+In fade.m
+\begin{lstlisting}
+% process the level
+if(level>1)
+    level = 1;
+elseif(level<0)
+    level = 0;
+end
+
+%create the ramp vector
+t = linspace(1,level,length(x));
+% multiply the audio vector with the ramp vector to fade
+y = t .* x;
+\end{lstlisting}
+Use the function(more detail in problem3.m),we can get the following plot.
+\begin{figure}[h]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1B1.png}
+        \caption{Input y}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1B2.png}
+        \caption{Level = 0 or -2}
+    \end{minipage}
+    \quad
+
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1B3.png}
+        \caption{Level = 0.25}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1B1.png}
+        \caption{Level = 100}
+    \end{minipage}
+\end{figure}
+
+\subsubsection*{C.Repeater}
+In repeat.m
+\begin{lstlisting}
+function out = repeat(sound,N)
+
+%process N
+if(N<0)
+    N = 0;
+end
+% turn N to integer
+N = fix(N);
+
+% repeat the sound
+if(N==0)
+    out = sound;
+else
+    out = sound;
+    for i=1:N
+        out = [out;sound];
+    end
+end
+\end{lstlisting}
+Use the function(more detail in problem3.m),we can get the following plot.
+\begin{figure}[h]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1C1.png}
+        \caption{Input sound}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1C2.png}
+        \caption{N = 3}
+    \end{minipage}
+    \quad
+
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1C1.png}
+        \caption{N = 0}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1C1.png}
+        \caption{N = -1}
+    \end{minipage}
+\end{figure}
+
+\subsubsection*{D.Delay}
+In delay.m
+\begin{lstlisting}
+function out =delay(sound,delay,Fs)
+
+if(delay>0)
+    zero_length = delay*Fs;
+    zero_sound = zeros(zero_length,1);
+    out = [zero_sound;sound];
+elseif(delay == 0)
+    out = sound;
+else
+    advance_length = -delay*Fs;
+    if(advance_length<length(sound))
+        out = sound((advance_length+1):length(sound),:);
+    else
+        out = 0;
+    end
+end
+\end{lstlisting}
+Use the function(more detail in problem3.m),we can get the following plot.
+\begin{figure}[h]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1D1.png}
+        \caption{Input sound}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1D2.png}
+        \caption{delay = 0.2}
+    \end{minipage}
+    \quad
+
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1D3.png}
+        \caption{delay = -0.1}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1D4.png}
+        \caption{delay = -1}
+    \end{minipage}
+\end{figure}
 \end{document}

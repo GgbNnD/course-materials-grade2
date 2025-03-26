@@ -5,6 +5,8 @@
 %       y - Column vector of audio samples
 %   Output:
 %       sound_rev - Time-reversed audio signal
+%   Example:
+%       y_rev = TimeReverse(y); 
 function sound_rev = TimeReverse(y)
     sound_rev = flipud(y);
 end
