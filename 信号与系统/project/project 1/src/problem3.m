@@ -130,3 +130,30 @@ subplot(2,2,4)
 plot(t3,y_delay3);
 xlabel('Time');
 ylabel('Amplitude');
+
+%% 3.1E
+clc;
+close all;
+clear;
+
+[sound1, Fs] = audioread('mixed.wav'); 
+t1 = (0:length(sound1)-1)/Fs; 
+
+[sound2, Fs] = audioread('castanets44m.wav'); 
+t2 = (0:length(sound2)-1)/Fs; 
+
+mix_sound = mix(sound1,sound2,3,2);
+mix_t = (0:length(sound2)-1)/Fs; 
+
+subplot(3,1,1)
+plot(t1,sound1);
+xlabel('Time');
+ylabel('Amplitude');
+subplot(3,1,2)
+plot(t2,sound2);
+xlabel('Time');
+ylabel('Amplitude');
+subplot(3,1,3)
+plot(mix_t,mix_sound);
+xlabel('Time');
+ylabel('Amplitude');

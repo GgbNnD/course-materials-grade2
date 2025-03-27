@@ -518,7 +518,7 @@ t = linspace(1,level,length(x));
 % multiply the audio vector with the ramp vector to fade
 y = t .* x;
 \end{lstlisting}
-Use the function(more detail in problem3.m),we can get the following plot.
+Using the function(more detail in problem3.m),we can get the following plot.
 \begin{figure}[h]
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -566,7 +566,7 @@ else
     end
 end
 \end{lstlisting}
-Use the function(more detail in problem3.m),we can get the following plot.
+Using the function(more detail in problem3.m),we can get the following plot.
 \begin{figure}[h]
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -612,7 +612,7 @@ else
     end
 end
 \end{lstlisting}
-Use the function(more detail in problem3.m),we can get the following plot.
+Use the function(more detail in problem3.m),we can get the following plot.\par
 \begin{figure}[h]
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -635,6 +635,71 @@ Use the function(more detail in problem3.m),we can get the following plot.
         \centering
         \includegraphics[width=0.8\linewidth]{3.1D4.png}
         \caption{delay = -1}
+    \end{minipage}
+\end{figure}
+When I delay by a negative number, I put the sound advance.
+
+\subsubsection*{E.Mixer}
+In order to provide more options for users,
+I offer gain1 for sound1 and gain2 for sound2.
+In the function I want to mix two sounds with 
+both feature of sounds saved.So I firstly process 
+gain1 and gain2 and in result gain1 plus gain2 equals to 1. 
+In the end of the funtion, I try to amplify the sound 
+so that the sound can be listened clearly.\par
+In mixer.m\par
+\begin{lstlisting} 
+function out = mix(sound1, sound2,gain1, gain2)
+
+sound_copy1 = sound1;
+sound_copy2 = sound2;
+
+gainf1 = gain1/(gain1+gain2);
+gainf2 = gain2/(gain1+gain2);
+
+length1 = length(sound1);
+length2 = length(sound2);
+maxlength = max(length1,length2);
+if(length1<maxlength)
+    zerolength = maxlength-length1;
+    zerosound = zeros(zerolength,1);
+    sound_copy1 = [sound_copy1;zerosound];
+end
+
+if(length2<maxlength)
+    zerolength = maxlength-length2;
+    zerosound = zeros(zerolength,1);
+    sound_copy2 = [sound_copy2;zerosound];
+end
+
+out = sound_copy1.*gainf1+sound_copy2.*gainf2;
+maxAmp = max(abs(out));
+out = out.*(1/maxAmp);
+\end{lstlisting}
+\newpage
+Using the function(more detail in problem3.m)with gain1 =3 and gain2 = 2,
+we can get the following plot.\par
+\begin{figure}[h]
+    \begin{minipage}{1.0\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1E1.png}
+        \caption{sound1}
+    \end{minipage}
+
+    \quad
+
+    \begin{minipage}{1.0\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1E2.png}
+        \caption{sound2}
+    \end{minipage}
+
+    \quad
+
+    \begin{minipage}{1.0\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{3.1E3.png}
+        \caption{mix sound}
     \end{minipage}
 \end{figure}
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  26 MAR 2025 17:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  27 MAR 2025 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -596,7 +596,14 @@ File: F:/School/大二下/信号与系统/project/project 1/asset/3.1D3.png Grap
 <F:/School/大二下/信号与系统/project/project 1/asset/3.1D3.png>
 File: F:/School/大二下/信号与系统/project/project 1/asset/3.1D4.png Graphic file (type bmp)
 <F:/School/大二下/信号与系统/project/project 1/asset/3.1D4.png>
- [20] (./project1.aux)
+ [20] [21]
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1E1.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1E1.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1E2.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1E2.png>
+File: F:/School/大二下/信号与系统/project/project 1/asset/3.1E3.png Graphic file (type bmp)
+<F:/School/大二下/信号与系统/project/project 1/asset/3.1E3.png>
+ [22] (./project1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -607,12 +614,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12498 strings out of 476720
- 293055 string characters out of 5801444
+ 12546 strings out of 476720
+ 294770 string characters out of 5801444
  2059842 words of memory out of 5000000
- 34319 multiletter control sequences out of 15000+600000
+ 34364 multiletter control sequences out of 15000+600000
  584202 words of font info for 94 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  93i,8n,97p,361b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on project1.pdf (20 pages).
+Output written on project1.pdf (22 pages).
