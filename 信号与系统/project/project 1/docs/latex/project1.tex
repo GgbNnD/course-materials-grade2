@@ -147,13 +147,13 @@ we can draw the following pole-zero diagrams
 \end{center}
 
 \subsubsection*{(d)}
-In the function pzplot,it use the function roots to find the poles and zeros of the system, and then plot the poles and zeros on the complex plane.
+In the function "pzplot",it use the function "roots" to find the poles and zeros of the system, and then plot the poles and zeros on the complex plane.
 for every pole, if the pole is on the left side of the given point,the ROC should contain the right side of the pole, and if the pole is on the right side of the given point, the ROC should contain the left side of the pole.\\
 \subsection{Making Discrete-Time Pole-Zero Diagrams}
 
 \subsubsection*{Note}
 
-In the M-file dpzplot.m, it use the outdated function \bf{clg},in order to inform that the function works well,we use the function \bf{clf} instead of \bf{clg}.\\
+In the M-file "dpzplot.m", it use the outdated function \bf{"clg"},in order to inform that the function works well,we use the function \bf{"clf"} instead of \bf{"clg"}.\\
 \begin{lstlisting}
     %clg;
     clf;
@@ -353,7 +353,7 @@ The problem requires us to add noise to the image and
 use the same metheod to find the nose.But I found that 
 the noise alreadly exists in the image,so I firstly clean 
 the noise and then add noise to the image in order to 
-use the function normrnd.\par
+use the function "normrnd".\par
 We can get the smiley without noise by the following code
 \begin{lstlisting}
 clc;
@@ -380,7 +380,7 @@ imwrite(img_copy,'F:\School\大二下\信号与系统\project\project 1\asset\sm
 Now let us process the image without noise.\par
 Because of the noise,we can't normalize$\pm 127.5$to $\pm 1$,
 so I just substract 127.5 from the pixel value.\par
-Use the similar code(more detail in 2c code segment in problem2.m) ,
+Use the similar code(more detail in 2c code segment in "problem2.m") ,
 we can get that the row of nose is 124 and
 the column of nose is 900 and we can get the following image
 \begin{center}
@@ -452,14 +452,14 @@ meet my expectation.Now I put the wave of the sound.
 \newpage
 \subsubsection*{A.Time-reverse \& Timescale}
 The sound vector is a column vector, 
-so we can use the function flipud.\par
-In TimeReverse.m
+so we can use the function "flipud".\par
+In "TimeReverse.m"
 \begin{lstlisting}
 function sound_rev = TimeReverse(y)
     sound_rev = flipud(y);
 end
 \end{lstlisting}
-In problem3.m
+In "problem3.m"
 \begin{lstlisting}
 clc;
 close all;
@@ -501,10 +501,10 @@ We can get two compared wave of the sound.
 \end{figure}
 
 \par
-When use the function timescale,the pitch changes with the change of the frequency of the sound.
+When use the function "timescale",the pitch changes with the change of the frequency of the sound.
 
 \subsubsection*{B.Fader}
-In fade.m
+In "fade.m"
 \begin{lstlisting}
 % process the level
 if(level>1)
@@ -518,7 +518,7 @@ t = linspace(1,level,length(x));
 % multiply the audio vector with the ramp vector to fade
 y = t .* x;
 \end{lstlisting}
-Using the function(more detail in problem3.m),we can get the following plot.
+Using the function(more detail in "problem3.m"),we can get the following plot.
 \begin{figure}[h]
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -545,7 +545,7 @@ Using the function(more detail in problem3.m),we can get the following plot.
 \end{figure}
 
 \subsubsection*{C.Repeater}
-In repeat.m
+In "repeat.m"
 \begin{lstlisting}
 function out = repeat(sound,N)
 
@@ -566,7 +566,7 @@ else
     end
 end
 \end{lstlisting}
-Using the function(more detail in problem3.m),we can get the following plot.
+Using the function(more detail in "problem3.m"),we can get the following plot.
 \begin{figure}[h]
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -593,7 +593,7 @@ Using the function(more detail in problem3.m),we can get the following plot.
 \end{figure}
 
 \subsubsection*{D.Delay}
-In delay.m
+In "delay.m"
 \begin{lstlisting}
 function out =delay(sound,delay,Fs)
 
@@ -612,7 +612,7 @@ else
     end
 end
 \end{lstlisting}
-Use the function(more detail in problem3.m),we can get the following plot.\par
+Use the function(more detail in "problem3.m"),we can get the following plot.\par
 \begin{figure}[h]
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -647,7 +647,7 @@ both feature of sounds saved.So I firstly process
 gain1 and gain2 and in result gain1 plus gain2 equals to 1. 
 In the end of the funtion, I try to amplify the sound 
 so that the sound can be listened clearly.\par
-In mixer.m\par
+In "mixer.m"\par
 \begin{lstlisting} 
 function out = mix(sound1, sound2,gain1, gain2)
 
@@ -677,7 +677,7 @@ maxAmp = max(abs(out));
 out = out.*(1/maxAmp);
 \end{lstlisting}
 \newpage
-Using the function(more detail in problem3.m)with gain1 =3 and gain2 = 2,
+Using the function(more detail in "problem3.m")with gain1 =3 and gain2 = 2,
 we can get the following plot.\par
 \begin{figure}[h]
     \begin{minipage}{1.0\textwidth}
@@ -702,4 +702,12 @@ we can get the following plot.\par
         \caption{mix sound}
     \end{minipage}
 \end{figure}
+
+\subsection{Make Your Own Music}
+
+The function "note" is used to generate a note with particular frequency and duration.
+The function "generate\_melody" is used to generate a melody with a sequence of notes.
+The "HexiangHuang.m" is the main code.
+You can find more detail in the fold "src".\par
+The wav file is saved in the fold "asset".\par
 \end{document}
