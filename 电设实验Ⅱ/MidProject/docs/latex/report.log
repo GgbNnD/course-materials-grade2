@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  25 MAR 2025 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.15)  1 APR 2025 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,19 +708,21 @@ File: figures/pcb0.png Graphic file (type bmp)
  [4]
 File: figures/pcb.png Graphic file (type bmp)
 <figures/pcb.png>
- [5] (./report.aux)
+File: figures/电路板.jpg Graphic file (type bmp)
+<figures/电路板.jpg>
+ [5] [6] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11576 strings out of 476720
- 271258 string characters out of 5801444
+ 11587 strings out of 476720
+ 271459 string characters out of 5801444
  1944842 words of memory out of 5000000
- 33418 multiletter control sequences out of 15000+600000
+ 33428 multiletter control sequences out of 15000+600000
  560748 words of font info for 98 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  89i,14n,100p,356b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (6 pages).
+Output written on report.pdf (7 pages).

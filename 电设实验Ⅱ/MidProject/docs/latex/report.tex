@@ -99,7 +99,7 @@ $R_f$可由$20k\Omega$固定电阻串联一个$10k\Omega$电位器$R_{w1}$得到
 
 由于击穿电压在 4~7V 的稳压二极管温度系数最小\text{、}近似为零，这里选用 5.1V 稳压管来实现稳压电路。\par
 
-分压后要产生 1V 左右的可调电压，分压电路可由上固定电阻串联下电位器构成。取流过分压电路电流为 5mA，则分压电路总电阻约为$1k\Omega$。若取上固定电阻 $R_{12}=510\Omega$，下电位器 $R_{w2} = 500\Omega$，则分压$V_f$将可在 0~2.5V 之间可调。
+分压后要产生 1V 左右的可调电压，分压电路可由上固定电阻串联下电位器构成。上固定电阻 $R_{12}=100\Omega$，下电位器 $R_{w2} = 510\Omega$，则分压$V_f$将可在 0.85到5.1V 之间可调，可调范围大。
 
 \subsection{电源\text{、}$R_{11}$\text{、}电容\text{、}补偿电阻选择}
 为避免运放输出最大电压时接近饱和，运放供电电压可取为$\pm 12V$
@@ -177,4 +177,14 @@ Multisim14.3,Altium Designer23
   \end{center}
   \caption{pcb设计改进}
 \end{figure}
+
+\section{电路板焊接}
+电路板焊接图如下图所示
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{电路板.jpg}
+  \end{center}
+  \caption{电路板焊接图}
+\end{figure}
+
 \end{document}
