@@ -187,4 +187,102 @@ Multisim14.3,Altium Designer23
   \caption{电路板焊接图}
 \end{figure}
 
+\section{电路板测试}
+\subsection{电位器调整}
+旋转下方电位器，使得$V_f = 1V$\par
+\begin{figure}[H]
+  \centering
+  \includegraphics[width = 0.45\textwidth,angle = 90]{测试1.jpg}
+  \caption{电位器调整1}
+\end{figure}
+接入20mA电流，调节上方电位器，使得$V_o \text{大致等于} 10V$\par
+\begin{figure}[H]
+  \centering
+  \includegraphics[width = 0.8\textwidth,angle = 180]{测试10.jpg}
+  \caption{电位器调整2}
+\end{figure}
+
+\subsection{输入输出测试}
+将电流从4mA步进2mA调节到20mA，观察输出电压变化，记录下数据\par
+\begin{figure}[H]
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试2.jpg}
+    \caption{4mA}
+  \end{minipage}
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试3.jpg}
+    \caption{6mA}
+  \end{minipage}
+\end{figure}
+\begin{figure}[H]
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试4.jpg}
+    \caption{8mA}
+  \end{minipage}
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试5.jpg}
+    \caption{10mA}
+  \end{minipage}
+\end{figure}
+\begin{figure}[H]
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试6.jpg}
+    \caption{12mA}
+  \end{minipage}
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试7.jpg}
+    \caption{14mA}
+  \end{minipage}
+\end{figure}
+\begin{figure}[H]
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试8.jpg}
+    \caption{16mA}
+  \end{minipage}
+  \begin{minipage}{0.45\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth,angle = 180]{测试9.jpg}
+    \caption{18mA}
+  \end{minipage}
+\end{figure}
+综合所有数据，画出曲线图\par
+\begin{figure}[H]
+  \centering
+  \includegraphics[width = 0.8\textwidth]{测试11.png}
+  \caption{输入输出曲线图}
+\end{figure}
+可以看到输入输出大致呈现一条直线，且线性度很好，满足设计要求
+
+\section{总结与心得体会}
+通过本次实验，我学会了ad设计软件的使用，对电路设计、电路布局有了
+更加深入的了解。同时我也在调试电路板的过程中精进了发现问题、排查问题的
+能力，对后面的学习大有裨益。
+
+\section{思考题}
+如何将0到10V的电压信号线性转换为4到20mA的电流信号？\par
+电路设计如下图所示，首先利用稳压二极管生成2.5V电压，搭建一个
+加法器电路，之后经过反相器生成2.5V到12.5V电压，为了避免外接电阻
+负载对运放的影响，再用一个运放作缓冲器，生成一个与前面电路隔离
+的2.5V到12.5V电压，加在625欧姆的电阻上，即可生成4到20mA的电流信号。
+\begin{figure}[H]
+  \begin{minipage}{0.9\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth]{思考题1.png}
+  \end{minipage}
+
+  \quad
+
+  \begin{minipage}{0.9\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth]{思考题2.png}
+  \end{minipage}
+  \caption{思考题电路原理图}
+\end{figure}
 \end{document}
