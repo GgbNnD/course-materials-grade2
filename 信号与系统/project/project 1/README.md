@@ -7,15 +7,14 @@ Signal and System Project 1
 ```
 project 1
 ├─ asset
-├─ docs
-│  ├─ latex
-│  └─ project1.pdf
-├─ introduction
+├─ HexiangHuang.wav
+├─ project1.pdf
 ├─ README.md
 └─ src
 
-\asset         中存放project完成过程中产生的图片与音频
-\docs          中存放project报告的latex文件与pdf文件
-\introduction  中存放project的介绍
-\src           中存放project的matlab源代码
+\asset 中存放project完成过程中产生的图片与音频
+\src 中存放project的matlab源代码
+HexiangHuang.wav 为project最后生成的音频
+project1 为lab的报告文档
+
 ```

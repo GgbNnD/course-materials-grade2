@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Problem 1}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Making Continuous-Time Pole-Zero Diagrams}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Making Discrete-Time Pole-Zero Diagrams}{5}{}%
+\contentsline {section}{\numberline {2}Problem 2}{9}{}%
+\contentsline {subsection}{\numberline {2.1}Smiley}{9}{}%
+\contentsline {section}{\numberline {3}Problem 3}{15}{}%
+\contentsline {subsection}{\numberline {3.1}Use the Sounds in Matlab}{15}{}%
+\contentsline {subsection}{\numberline {3.2}Make Your Own Music}{23}{}%
