@@ -1,0 +1,29 @@
+1、设计参考
+1）P22_LCD恒温器.pdf（项目A3参考）
+2）Arduino继电器控制.jpg（项目A3参考）
+
+2、电路板尺寸和与arduino板的安装问题
+1）Arduino UNO&MEGA2560.doc
+2）Arduino Uno R3.PcbDoc
+3）Arduino与原型板.jpg
+
+3、器件封装问题：
+1)先安装库文件
+  Fszhang.IntLib
+  LCD的LCD.SchLib和LCD.PcbLib
+2）旋转编码器：
+   在Fszhang中，器件名：SW-EC11；
+3）液晶显示器：
+   LCD中的LCD.SchLib和LCD.PcbLib分别是LCD1602原理图和PCB封装；
+4)继电器：
+  双继电器
+  原理图在Miscellaneous Devices.lib中的RELAY-DPDT，封装库在LixhPCB.lib中的RELAY0408。
+  单继电器
+  在Fszhang.IntLib中的HK4100F
+5）两位数码管
+在ALTIUM DESIGNER安装目录： 
+\Program Files\Altium Designer Summer 09\Library\Agilent Technologies\Agilent LED Display 7-Segment, 2-Digit.IntLib
+6）DS1302
+\Program Files (x86)\Altium Designer Winter 09\Library\Dallas Semiconductor\Dallas Peripheral Real Time Clock.IntLib
+
+
